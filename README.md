@@ -40,3 +40,5 @@
 10. Get-All-Device-Pools.py - To print the list configured Device Pool names in CUCM
     Note: with other dp.xxxxx tags you could display other Device Pool related data
    
+11. Get-All-CTI-RPs.py - To print the list configured CTI Route Point names in CUCM
+    Note: with other cti.xxxxx tags you could display other CTI Route Point related data
