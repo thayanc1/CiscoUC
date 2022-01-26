@@ -26,11 +26,11 @@ if os.path.exists(dirname) is False:
 # Define list of IP Addresses to SSH to.
 # Replace the IPs with the CUPS IPs.
 hostname = [
-    "10.250.250.53",
-    "10.251.250.53"
+    "10.1.1.1",
+    "10.1.1.2"
 ]
 
-# Commands to execute against the CLI
+# Commands to execute against the CLI - Select and remove "#" from any required lines
 commands = [
     'set cli pagination off',  # Turns off pagination so the script doesn't fail.
     'show status',  # Shows the uptime, cpu/mem/disk util and other misc. system info.
