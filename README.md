@@ -33,3 +33,7 @@
 
 8. Get-All-DNs.py - To print the list configured Directory Numbers UUID in CUCM
    Note: with other dn.xxxxx tags you could display other Directory Number related data
+
+9. Get-All-Device-Profiles.py - To print the list configured Device Profile names in CUCM
+   Note: with other udp.xxxxx tags you could display other Device Profile related data
+   
