@@ -28,3 +28,5 @@
 6. Get-All-Partitions.py - To print the list configured partition names in CUCM
    Note: with other pt.xxxxx tags you could display other Partition related data
 
+7. Get-All-Locations.py - To print the list configured location names in CUCM
+   Note: with other loc.xxxxx tags you could display other Location related data
