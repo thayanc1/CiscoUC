@@ -27,8 +27,8 @@ if os.path.exists(dirname) is False:
 # Replace the ip-addr# in quotes with an IP address (e.g. 10.161.1.133), one per line.
 # Follow the syntax below to add additional entries
 hostname = [
-    "10.250.250.x",
-    "10.251.250.x"
+    "10.1.1.1",
+    "10.1.1.2"
 ]
 
 # Commands to execute against the CLI
@@ -58,7 +58,6 @@ commands = [
 # For each ip address in our list, SSH to the device.
 # Run the defined command and log the output to a text file
 # One text file per node. File name contains both node IP and timestamp.
-
 
 def session():
     try:
