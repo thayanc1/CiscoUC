@@ -27,9 +27,9 @@ if os.path.exists(dirname) is False:
 # Replace the ip-addr# in quotes with an IP address (e.g. 10.161.1.133), one per line.
 # Follow the syntax below to add additional entries
 hostname = [
-    "10.250.250.50",
-    "10.250.250.51",
-    "10.251.250.51
+    "10.1.1.1",
+    "10.1.1.2",
+    "10.1.1.3
 ]
 
 # Commands to execute against the CLI
