@@ -30,3 +30,6 @@
 
 7. Get-All-Locations.py - To print the list configured location names in CUCM
    Note: with other loc.xxxxx tags you could display other Location related data
+
+8. Get-All-DNs.py - To print the list configured Directory Numbers UUID in CUCM
+   Note: with other dn.xxxxx tags you could display other Directory Number related data
