@@ -42,3 +42,6 @@
    
 11. Get-All-CTI-RPs.py - To print the list configured CTI Route Point names in CUCM
     Note: with other cti.xxxxx tags you could display other CTI Route Point related data
+    
+12. Get-All-CSSs.py - To print the list configured Calling Search Space names in CUCM
+    Note: with other css.xxxxx tags you could display other CSS related data
