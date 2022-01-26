@@ -1,3 +1,7 @@
+#
+# Script created by Thaya Nagarajah
+#
+
 import requests
 import urllib3
 from getpass import getpass
