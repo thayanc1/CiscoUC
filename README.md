@@ -13,3 +13,5 @@ Enter UserID: tnagarajah
         'CSFUSER'
     ]
 }
+
+2. Get-Specific_User-All-Data.py - To Get a UserID and display the configuratio data for the User
