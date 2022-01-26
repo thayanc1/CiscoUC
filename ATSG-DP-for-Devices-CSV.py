@@ -9,10 +9,10 @@ import csv
 requests.packages.urllib3.disable_warnings()
 
 # To Trust the CUCM Tomcat Certificate
-TomcatCertLocation = 'C:/Users/ATSGAdmin/Documents/ATSG/tomcat.pem'
+TomcatCertLocation = 'C:/Users/Admin/Documents/tomcat.pem'
 
 # Open the CSV file contains the Device Name list if the Devices
-with open('C:/Users/ATSGAdmin/Documents/ATSG/Phone-List.csv', 'r') as csv_file:
+with open('C:/Users/Admin/Documents/Phone-List.csv', 'r') as csv_file:
     inputDevNames = csv.reader(csv_file)
     for DevName in inputDevNames:
         # Capture the Device Name from the CSV File Location "0"
@@ -30,7 +30,7 @@ with open('C:/Users/ATSGAdmin/Documents/ATSG/Phone-List.csv', 'r') as csv_file:
         </soapenv:Envelope>"""
 
         # Send HTTP Post request to CUCM with AXL API User 
-        r = requests.post('https://RC-UCM-Pub.atsg.net/axl/',verify=TomcatCertLocation,auth=('tnagarajah','Tnagara!ah2$'),data=soapReq)
+        r = requests.post('https://<<CUCM-FQDN>>/axl/',verify=TomcatCertLocation,auth=('axluser','axlpassword'),data=soapReq)
 
         # Write to XML File if the r.contetn
         XMLDoc = ET.fromstring(r.content)
