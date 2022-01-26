@@ -38,5 +38,5 @@
     Note: with other udp.xxxxx tags you could display other Device Profile related data
    
 10. Get-All-Device-Pools.py - To print the list configured Device Pool names in CUCM
-    Note: with other udp.xxxxx tags you could display other Device Pool related data
+    Note: with other dp.xxxxx tags you could display other Device Pool related data
    
