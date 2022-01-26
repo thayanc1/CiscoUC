@@ -19,10 +19,12 @@
 3. Get-All-Users.py - To print the list of End User's FName and LName.
    Note: with other user.xxxxx tags you could display other End User related data
 
-4. Get-All-Regions.py - To print the list configured regions name in CUCM
+4. Get-All-Regions.py - To print the list configured region names in CUCM
    Note: with other reg.xxxxx tags you could display other Region related data
 
-5. Get-All-Phones.py - To print the list configured phones in CUCM
+5. Get-All-Phones.py - To print the list configured phone names in CUCM
    Note: with other phone.xxxxx tags you could display other Phone related data
 
-6. 
+6. Get-All-Partitions.py - To print the list configured partition names in CUCM
+   Note: with other pt.xxxxx tags you could display other Partition related data
+
