@@ -1,6 +1,7 @@
 from ciscoaxl import axl
 
-cucm = '10.250.250.51'
-cucm_username = 'tnagarajah'
-cucm_password = 'Tnagara!ah2$'
+# Replace <<CUCM-IP>> with the Call Manager IP Address 
+cucm = '<<CUCM-IP>>'
+cucm_username = 'axluser'
+cucm_password = 'axlpassword'
 version = '12.5'
