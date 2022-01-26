@@ -22,4 +22,7 @@
 4. Get-All-Regions.py - To print the list configured regions name in CUCM
    Note: with other reg.xxxxx tags you could display other Region related data
 
-5. 
+5. Get-All-Phones.py - To print the list configured phones in CUCM
+   Note: with other phone.xxxxx tags you could display other Phone related data
+
+6. 
